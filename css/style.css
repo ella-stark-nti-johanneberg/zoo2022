@@ -1,0 +1,82 @@
+#cardWrapper {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    margin:auto;
+    justify-content: center;
+
+}
+
+header {
+    font-size: 3em;
+    text-align: center;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    border: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article { 
+    width: 200px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardWrapper section div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: gray (200,200,100,0,1);
+}
+
+section:hover {
+    height: 250px;
+}
+section:hover p {
+    height: 190px;
+}
+
+#cardWrapper section article p {
+    font-size: 2em; 
+    text-shadow: 0 0 5px whitesmoke, -2px -2px 3px whitesmoke; 
+
+}
+
+#s1 {
+background-image: url('../img/animals/birds.jpeg');
+
+}
+
+#s2 {
+    background-image: url('../img/animals/lizard.jpeg');
+}
+
+#s3 {
+    background-image: url('../img/animals/lokatt.webp');
+}
+
+#s4 {
+    background-image: url('../img/animals/panda.jpeg');
+}
+
+#s5 {
+    background-image: url('../img/animals/surigat.jpeg');
+
+}
+#s6 {
+    background-image: url('../img/animals/lizard.jpeg');
+
+}
