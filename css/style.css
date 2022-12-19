@@ -80,3 +80,28 @@ background-image: url('../img/animals/birds.jpeg');
     background-image: url('../img/animals/lizard.jpeg');
 
 }
+
+#wrapper {
+display: grid;
+height: 95vh;
+grid-template-rows: 150px auto 100px;
+grid-template-areas: "hd hd" 
+"mn mn"
+"ft ft"; 
+
+}
+
+header {
+    border: 1px solid black;
+    grid-area: hd;
+}
+
+main {
+    border: 1px solid black;
+    grid-area: mn;
+}
+
+footer {
+    border: 1px solid black;
+    grid-area: ft ;
+}
